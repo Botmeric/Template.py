@@ -10,7 +10,6 @@ from discord.ext import commands
 
 from cogs.utils import context
 from cogs.utils.config import Config
-from database import Db
 
 log = logging.getLogger(__name__)
 
@@ -25,8 +24,6 @@ class Bot(commands.AutoShardedBot):
         self.settings = kwargs.get('settings')
 
         self.owner_ids = self.settings.get('owner_ids')
-
-        self.db = Db(self.settings.get('db_url'), self)
 
         self.session = aiohttp.ClientSession(loop=self.loop)
 

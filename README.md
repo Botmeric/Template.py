@@ -9,7 +9,8 @@ A basic template for a Discord Bot
 
 2. **Install dependencies**
 
-    This is `pip install -U -r requirements.txt`
+    - `cd` to the working directory of your clone of this repository
+    - Execute: `pip3 install -U -r requirements.txt`
 
 3. **Create an Application with Discord**
 
@@ -27,8 +28,8 @@ A basic template for a Discord Bot
 
 5. **Review Documentation**
 
-    Discord's API: https://discordapp.com/developers/docs/intro
-    Discord.py https://discordpy.readthedocs.io/en/latest/
+    - Discord's API: https://discordapp.com/developers/docs/intro
+    - Discord.py https://discordpy.readthedocs.io/en/latest/
 
 ## Requirements
 

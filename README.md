@@ -19,12 +19,10 @@ Create an application on Discord's website https://discordapp.com/developers/app
 
 Edit the configuration of `/config/config.dev.json`
 
-```json
-{
-    owner_ids = [] # a list of Discord user IDs who own the bot
-    id = '' # your bot's client ID
-    token = '' # your bot's token
-}
+```py
+owner_ids = [] # a list of Discord user IDs who own the bot
+id = '' # your bot's client ID
+token = '' # your bot's token
 ```
 
 ## Requirements

@@ -1,5 +1,5 @@
-## Template
-A basic template for a Discord Bot
+## Template.py
+A basic Python template for a Discord Bot
 
 ## Running
 
@@ -26,10 +26,10 @@ A basic template for a Discord Bot
     token = '' # your bot's token
     ```
 
-5. **Review Documentation**
+## Documentation
 
-    - Discord's API: https://discordapp.com/developers/docs/intro
-    - Discord.py https://discordpy.readthedocs.io/en/latest/
+- Discord's API: https://discordapp.com/developers/docs/intro
+- Discord.py https://discordpy.readthedocs.io/en/latest/
 
 ## Requirements
 

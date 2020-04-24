@@ -25,7 +25,12 @@ id = '' # your bot's client ID
 token = '' # your bot's token
 ```
 
+5. **Review Documentation**
+
+Discord's API: https://discordapp.com/developers/docs/intro
+Discord.py https://discordpy.readthedocs.io/en/latest/
+
 ## Requirements
 
-- Python 3.6+
-- v1.0.0 of discord.py
+- Python v3.6+
+- discord.py v1.3.0+
